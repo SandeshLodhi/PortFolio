@@ -1,7 +1,7 @@
 import React from 'react';
 
 function Portfolio() {
-  const cardItem = [
+{/* const cardItem = [
     { id: 1, logo: "/mongodb.jpg", name: "MongoDB" },
     { id: 2, logo: "/express.png", name: "Express" },
     { id: 3, logo: "/reactjs.png", name: "ReactJS" },
@@ -9,6 +9,45 @@ function Portfolio() {
     { id: 5, logo: "/java.png", name: "Java"}
 
   ];
+  */}
+  const cardItem = [
+  {
+    id: 1,
+    logo: "/mongodb.jpg",
+    name: "MongoDB",
+    description:
+      "A flexible, document-oriented NoSQL database designed for scalability and high performance. Ideal for modern applications that require dynamic schemas and real-time data processing.",
+  },
+  {
+    id: 2,
+    logo: "/express.png",
+    name: "Express",
+    description:
+      "A minimalist and powerful Node.js web framework that simplifies building robust APIs and web applications. It handles routing, middleware, and server-side logic with ease.",
+  },
+  {
+    id: 3,
+    logo: "/reactjs.png",
+    name: "ReactJS",
+    description:
+      "A fast, component-based JavaScript library for building dynamic user interfaces. React makes it easy to create reusable UI elements and manage state efficiently.",
+  },
+  {
+    id: 4,
+    logo: "/node.png",
+    name: "NodeJS",
+    description:
+      "A runtime environment that lets you run JavaScript on the server side. Node.js is known for its event-driven architecture and non-blocking I/O, making it perfect for scalable network applications.",
+  },
+  {
+    id: 5,
+    logo: "/java.png",
+    name: "Java",
+    description:
+      "A versatile, object-oriented programming language known for its portability, performance, and security. Java powers everything from enterprise systems to Android apps.",
+  },
+];
+
 
   return (
     <div 
@@ -32,7 +71,9 @@ function Portfolio() {
             />
             <div>
             <div className=" px-2 font-bold text-xl mb-2">{item.name}</div>
-            <p className='px-2 text-gray-700'>A flexible, document-oriented NoSQL database designed for scalability and high performance. Ideal for modern applications that require dynamic schemas and real-time data processing.</p>
+            {/*<p className='px-2 text-gray-700'>A flexible, document-oriented NoSQL database designed for scalability and high performance. Ideal for modern applications that require dynamic schemas and real-time data processing.</p> */}
+            <p className="px-2 text-gray-700">{item.description}</p>
+
             </div>
 
             <div className='px-6 py-4 space-x-3 justify-around'> 
