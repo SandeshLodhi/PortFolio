@@ -30,6 +30,15 @@ function About() {
     Problem-Solving: Data Structures & Algorithms with Java.
     Tools & Plateforms: Git & GitHub.
     </div>
+    
+    <h1 className='text-green-600 font-semibold text-xl'>Skills & Expertise</h1>
+    <div className="whitespace-pre-wrap text-white">
+    Programming: C, C++, Java
+    Web Development: HTML, CSS, JavaScript, React, Node.js, Express.js, MySQL, MongoDB
+    Problem-Solving: Data Structures & Algorithms with Java
+    Tools & Platforms: Git & GitHub
+</div>
+
     <br></br>
     <br></br>
 
