@@ -15,10 +15,10 @@ function About() {
      <br>
      </br>
     <h1 className='text-green-600 font-semibold text-xl'>Education & Training </h1>
-    <span><pre>
-    B.Tech in Computer Science – ITM Group of Institutions, Gwalior (2023–2027)
-    C++ Certification – TAP Cell, ITM (2023)
-    </pre></span>
+    <span>
+    B.Tech in Computer Science – ITM Group of Institutions, Gwalior (2023–2027).
+    C++ Certification – TAP Cell, ITM (2023).
+    </span>
     <br></br>
     <br></br>
 
@@ -30,35 +30,21 @@ function About() {
     Problem-Solving: Data Structures & Algorithms with Java.
     Tools & Plateforms: Git & GitHub.
     </div>
-
-    <h1 className='text-green-600 font-semibold text-xl'>Skills & Expertise</h1>
-    <div className="whitespace-pre-wrap text-black">
-    Programming: C, C++, Java
-    Web Development: HTML, CSS, JavaScript, React, Node.js, Express.js, MySQL, MongoDB
-    Problem-Solving: Data Structures & Algorithms with Java
-    Tools & Platforms: Git & GitHub
-</div>
-
     <br></br>
     <br></br>
+
     <h1 className='text-green-600 font-semibold text-xl'>Professional Experience</h1>
  <div>
-  <ul className="list-disc ml-6 text-black">
+  <ul className="list-disc ml-6 text-white">
   <li>Airbnb Clone (June 2025)</li>
-  <li>Developed a responsive full-stack Airbnb clone using the MERN stack...</li>
-  <li>Portfolio Website - Personal Project (Aug 2025)</li>
-  <li>Developed a responsive personal portfolio website using React and Tailwind CSS...</li>
+  <li>Developed a responsive full-stack Airbnb clone using the MERN stack (MongoDB, Express.js, React.js, Node.js).</li>
+  <li>●	Implemented secure user authentication, property listings, and booking functionality.</li>
+  <li>●	Integrated dynamic search filters and detailed listing pages for enhanced user experience.</li>
+  <li>●	Built RESTful APIs and handled real-time data storage with MongoDB.                </li>
 </ul>
 </div>
 
-
-     <h1 className='text-green-600 font-semibold text-xl'>Professional Experience </h1>
     <span> <pre>
-    Airbnb Clone							                                                                                  June’25
-    Developed a responsive full-stack Airbnb clone using the MERN stack (MongoDB, Express.js, React.js, Node.js).
- ●	Implemented secure user authentication, property listings, and booking functionality.
- ●	Integrated dynamic search filters and detailed listing pages for enhanced user experience.
- ●	Built RESTful APIs and handled real-time data storage with MongoDB.                                         Aug’25
     Portfolio Website – Personal Project                                                                        
  ●  Developed a responsive personal portfolio website using React and Tailwind CSS.
  ●  Designed modern and responsive UI for desktop and mobile devices.
