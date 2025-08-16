@@ -15,27 +15,28 @@ function About() {
      <br>
      </br>
     <h1 className='text-green-600 font-semibold text-xl'>Education & Training </h1>
-    <span>
+    <span><pre>
     B.Tech in Computer Science – ITM Group of Institutions, Gwalior (2023–2027)
     C++ Certification – TAP Cell, ITM (2023)
-    </span>
+    </pre></span>
     <br></br>
     <br></br>
 
 
     <h1 className='text-green-600 font-semibold text-xl'>Skills & Expertise</h1>
-    <span>
+    <span><pre>
     Programming: C, C++, Java
     Web Development: HTML, CSS, JavaScript, React, Node.js, Express.js, MySQL, MongoDB
     Problem-Solving: Data Structures & Algorithms with Java.
     Tools & Plateforms: Git & GitHub.
-    </span>
+    
+    </pre></span>
     <br></br>
     <br></br>
 
 
      <h1 className='text-green-600 font-semibold text-xl'>Professional Experience </h1>
-    <span>
+    <span> <pre>
     Airbnb Clone							                                                                                  June’25
     Developed a responsive full-stack Airbnb clone using the MERN stack (MongoDB, Express.js, React.js, Node.js).
  ●	Implemented secure user authentication, property listings, and booking functionality.
@@ -46,6 +47,7 @@ function About() {
  ●  Designed modern and responsive UI for desktop and mobile devices.
  ●  Implemented dynamic sections to showcase projects, skills, and contact information.
  ●  Enhanced user experience with smooth navigation and interactive elements.
+ </pre>
     </span>
     <br></br>
     <br></br>
@@ -53,7 +55,7 @@ function About() {
 
     <h1 className='text-green-600 font-semibold text-xl'>Achievements & Awards</h1>
     <span>
-      Solved 350+ DSA problems in Java, covering arrays, linked lists, trees, graphs, dynamic programming, and more, strengthening problem-solving and coding skills.
+    Solved 350+ DSA problems in Java, covering arrays, linked lists, trees, graphs, dynamic programming, and more, strengthening problem-solving and coding skills.
     </span>
     <br></br>
     <br></br>
@@ -61,7 +63,7 @@ function About() {
 
        <h1 className='text-green-600 font-semibold text-xl'>Mission Statement</h1>
     <span>
-      "To leverage my coding and problem-solving abilities to build impactful projects and grow as a full-stack developer."
+    I build impactful projects by leveraging my coding and problem-solving skills, while continuously growing as a full-stack developer.
     </span>
 
     </div>
