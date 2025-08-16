@@ -24,13 +24,12 @@ function About() {
 
 
     <h1 className='text-green-600 font-semibold text-xl'>Skills & Expertise</h1>
-    <span><pre>
+    <div className="whitespace-pre-line text-gray-800 text-base font-medium">
     Programming: C, C++, Java
     Web Development: HTML, CSS, JavaScript, React, Node.js, Express.js, MySQL, MongoDB
     Problem-Solving: Data Structures & Algorithms with Java.
     Tools & Plateforms: Git & GitHub.
-    
-    </pre></span>
+    </div>
     <br></br>
     <br></br>
 
