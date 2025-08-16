@@ -37,7 +37,6 @@ function About() {
     <br></br>
 
 
-
     <h1 className='text-green-600 font-semibold text-xl'>Professional Experience</h1>
  <div>
   <p>Airbnb Clone (June 2025)</p>
@@ -58,8 +57,7 @@ function About() {
   <li>Built RESTful APIs and handled real-time data storage with MongoDB</li>
   <li>Enhanced user experience with smooth navigation and interactive elements.</li>
 </ul>
-</div>
- <br></br>
+</div> <br></br>
 <br></br>
 
 
