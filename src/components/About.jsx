@@ -40,18 +40,29 @@ function About() {
   <ul className="list-disc ml-6 text-black">
   {/*<li>Airbnb Clone (June 2025)</li>
   <li>Developed a responsive full-stack Airbnb clone using the MERN stack (MongoDB, Express.js, React.js, Node.js).</li>  */}
-  <li>●	Implemented secure user authentication, property listings, and booking functionality.</li>
-  <li>●	Integrated dynamic search filters and detailed listing pages for enhanced user experience.</li>
-  <li>●	Built RESTful APIs and handled real-time data storage with MongoDB.                </li>
+  <li>Implemented secure user authentication, property listings, and booking functionality.</li>
+  <li>Integrated dynamic search filters and detailed listing pages for enhanced user experience.</li>
+  <li>Built RESTful APIs and handled real-time data storage with MongoDB.                </li>
+</ul>
+</div>
+<br></br>
+ <div>
+  <p> Portfolio Website – Personal Project  </p>
+  <p> Developed a responsive personal portfolio website using React and Tailwind CSS.</p>
+  <ul className="list-disc ml-6 text-black">
+  <li>Designed modern and responsive UI for desktop and mobile devices.</li>
+  <li>Implemented dynamic sections to showcase projects, skills, and contact information.</li>
+  <li>Built RESTful APIs and handled real-time data storage with MongoDB</li>
+  <li>Enhanced user experience with smooth navigation and interactive elements.</li>
 </ul>
 </div>
 
     <span> <pre>
-    Portfolio Website – Personal Project                                                                        
- ●  Developed a responsive personal portfolio website using React and Tailwind CSS.
- ●  Designed modern and responsive UI for desktop and mobile devices.
- ●  Implemented dynamic sections to showcase projects, skills, and contact information.
- ●  Enhanced user experience with smooth navigation and interactive elements.
+                                                                         
+ ●  
+ ●  
+ ●  
+ ●  
  </pre>
     </span>
     <br></br>
