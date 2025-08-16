@@ -30,7 +30,7 @@ function About() {
     Problem-Solving: Data Structures & Algorithms with Java.
     Tools & Plateforms: Git & GitHub.
     </div>
-    
+
     <h1 className='text-green-600 font-semibold text-xl'>Skills & Expertise</h1>
     <div className="whitespace-pre-wrap text-white">
     Programming: C, C++, Java
@@ -41,6 +41,15 @@ function About() {
 
     <br></br>
     <br></br>
+    <h1 className='text-green-600 font-semibold text-xl'>Professional Experience</h1>
+ <div>
+  <ul className="list-disc ml-6 text-white">
+  <li>Airbnb Clone (June 2025)</li>
+  <li>Developed a responsive full-stack Airbnb clone using the MERN stack...</li>
+  <li>Portfolio Website - Personal Project (Aug 2025)</li>
+  <li>Developed a responsive personal portfolio website using React and Tailwind CSS...</li>
+</ul>
+</div>
 
 
      <h1 className='text-green-600 font-semibold text-xl'>Professional Experience </h1>
