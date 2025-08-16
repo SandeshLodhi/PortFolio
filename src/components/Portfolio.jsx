@@ -32,7 +32,7 @@ function Portfolio() {
             />
             <div>
             <div className=" px-2 font-bold text-xl mb-2">{item.name}</div>
-            <p className='px-2 text-gray-700'>Lorem ipsum dolor sit amet consectetuatur provident minima obcaecati nemo. Harum, libero possimus!</p>
+            <p className='px-2 text-gray-700'>A flexible, document-oriented NoSQL database designed for scalability and high performance. Ideal for modern applications that require dynamic schemas and real-time data processing.</p>
             </div>
 
             <div className='px-6 py-4 space-x-3 justify-around'> 
