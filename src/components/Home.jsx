@@ -9,7 +9,8 @@ import { SiExpress } from "react-icons/si";
 import { RiReactjsFill } from "react-icons/ri";
 import { FaNodeJs } from "react-icons/fa";
 
-import { ReactTyped} from "react-typed";
+import Typed from "react-typed";
+
 
 import pic from "../../public/photo.avif";
 function Home() {
@@ -18,20 +19,30 @@ function Home() {
 
    <div
      name="Home"
-    className="max-w-screen-2*1 container mx-auto px-4 md:px-20 my-20" >
+    className="max-w-screen-2xl container mx-auto px-4 md:px-20 my-20"
+ >
     <div className="flex flex-col md:flex-row" >
      {/** Left Div  */}
     <div className="md:w-1/2 mt-12 md:mt-24 space-y-2 order-2 md:order-1" >
     <span className="text-xl">Welcome In My Feed</span>
-    <div className="flex space-x-l text-2xl md:text-4xl"><h1>Hello , I'm a </h1>
+    <div className="flex space-x-1 text-2xl md:text-4xl"><h1>Hello , I'm a </h1>
     {/*    <span className="text-red-700 font-bold">Developer</span> */}
-    <ReactTyped className="text-red-700 font-bold"
+    <Typed
+  className="text-red-700 font-bold"
+  strings={["Developer", "Coder", "Programmer"]}
+  typeSpeed={40}
+  backSpeed={50}
+  loop
+/>
+
+ {/*}   <ReactTyped className="text-red-700 font-bold"
 
           strings={["Developer","Coder", "Programmer"]}
           typeSpeed={40}
           backSpeed={50}
           loop={true}
         />
+        */}
 
     </div>
     <br></br>
@@ -86,8 +97,8 @@ Focused on problem-solving and real-world projects, I aim to grow as a full-stac
 
     </div>
     {/**Right Div */}
-    <div className="md:w-1/2 md:ml-48 md:mt:20 mt-8 order-1">
-    <img src={pic} className="rounded-full w-[450px] h-[450px]" alt=''></img>
+    <div className="md:w-1/2 md:ml-48 md:mt-20 mt-8 order-1">
+    <img src={pic} className="rounded-full w-[450px] h-[450px]" alt="Sandesh's profile"></img>
     </div>
 
    </div>
