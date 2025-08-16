@@ -35,7 +35,7 @@ function About() {
 
     <h1 className='text-green-600 font-semibold text-xl'>Professional Experience</h1>
  <div>
-  <ul className="list-disc ml-6 text-white">
+  <ul className="list-disc ml-6 text-black">
   <li>Airbnb Clone (June 2025)</li>
   <li>Developed a responsive full-stack Airbnb clone using the MERN stack (MongoDB, Express.js, React.js, Node.js).</li>
   <li>●	Implemented secure user authentication, property listings, and booking functionality.</li>
