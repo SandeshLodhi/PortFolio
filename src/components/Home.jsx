@@ -35,9 +35,9 @@ function Home() {
 
     </div>
     <br></br>
-    <p className='text-sm md:text-md text-justify'>Bachelor of Technology CSE student with a solid foundation in programming and web development. 
-Focused on mastering Data Structures and Algorithms for efficient problem-solving. 
-Skilled in Java, C++, and the MERN stack. Eager to contribute to impactful projects as a Full Stack Developer.
+    <p className='text-sm md:text-md text-justify'>Hi, I’m Sandesh, a Computer Science student with a strong interest in coding and web development.
+I am exploring Java, C++, and the MERN stack to strengthen my knowledge and build useful applications.
+Passionate about problem-solving and full-stack projects, I aim to grow as a full-stack developer.
 </p>
 <br/>
 {/*Social Media */}
