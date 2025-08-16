@@ -35,9 +35,11 @@ function About() {
 
     <h1 className='text-green-600 font-semibold text-xl'>Professional Experience</h1>
  <div>
+  <p>Airbnb Clone (June 2025)</p>
+  <p>Developed a responsive full-stack Airbnb clone using the MERN stack (MongoDB, Express.js, React.js, Node.js).</p>
   <ul className="list-disc ml-6 text-black">
-  <li>Airbnb Clone (June 2025)</li>
-  <li>Developed a responsive full-stack Airbnb clone using the MERN stack (MongoDB, Express.js, React.js, Node.js).</li>
+  {/*<li>Airbnb Clone (June 2025)</li>
+  <li>Developed a responsive full-stack Airbnb clone using the MERN stack (MongoDB, Express.js, React.js, Node.js).</li>  */}
   <li>●	Implemented secure user authentication, property listings, and booking functionality.</li>
   <li>●	Integrated dynamic search filters and detailed listing pages for enhanced user experience.</li>
   <li>●	Built RESTful APIs and handled real-time data storage with MongoDB.                </li>
