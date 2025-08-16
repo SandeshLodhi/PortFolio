@@ -14,24 +14,29 @@ function About() {
      </p>
      <br>
      </br>
+
+
     <h1 className='text-green-600 font-semibold text-xl'>Education & Training </h1>
     <span>
     B.Tech in Computer Science – ITM Group of Institutions, Gwalior (2023–2027).
-    C++ Certification – TAP Cell, ITM (2023).
+    <p>C++ Certification – TAP Cell, ITM (2023).</p>
     </span>
     <br></br>
     <br></br>
 
 
+    {/* Skiils  Sections */}
     <h1 className='text-green-600 font-semibold text-xl'>Skills & Expertise</h1>
     <div className="whitespace-pre-line text-gray-800 text-base font-medium">
-    Programming: C, C++, Java
-    Web Development: HTML, CSS, JavaScript, React, Node.js, Express.js, MySQL, MongoDB
-    Problem-Solving: Data Structures & Algorithms with Java.
-    Tools & Plateforms: Git & GitHub.
+    <p>Programming: C, C++, Java</p>
+    <p>Web Development: HTML, CSS, JavaScript, React, Node.js, Express.js, MySQL, MongoDB</p>
+    <p> Problem-Solving: Data Structures & Algorithms with Java.</p>
+    <p>Tools & Plateforms: Git & GitHub.</p>
     </div>
     <br></br>
     <br></br>
+
+
 
     <h1 className='text-green-600 font-semibold text-xl'>Professional Experience</h1>
  <div>
@@ -43,11 +48,9 @@ function About() {
   <li>Implemented secure user authentication, property listings, and booking functionality.</li>
   <li>Integrated dynamic search filters and detailed listing pages for enhanced user experience.</li>
   <li>Built RESTful APIs and handled real-time data storage with MongoDB.                </li>
-</ul>
-</div>
-<br></br>
- <div>
-  <p> Portfolio Website – Personal Project  </p>
+</ul> <br></br>
+
+<p> Portfolio Website – Personal Project  </p>
   <p> Developed a responsive personal portfolio website using React and Tailwind CSS.</p>
   <ul className="list-disc ml-6 text-black">
   <li>Designed modern and responsive UI for desktop and mobile devices.</li>
@@ -56,17 +59,8 @@ function About() {
   <li>Enhanced user experience with smooth navigation and interactive elements.</li>
 </ul>
 </div>
-
-    <span> <pre>
-                                                                         
- ●  
- ●  
- ●  
- ●  
- </pre>
-    </span>
-    <br></br>
-    <br></br>
+ <br></br>
+<br></br>
 
 
     <h1 className='text-green-600 font-semibold text-xl'>Achievements & Awards</h1>
