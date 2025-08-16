@@ -32,7 +32,7 @@ function About() {
     </div>
 
     <h1 className='text-green-600 font-semibold text-xl'>Skills & Expertise</h1>
-    <div className="whitespace-pre-wrap text-white">
+    <div className="whitespace-pre-wrap text-black">
     Programming: C, C++, Java
     Web Development: HTML, CSS, JavaScript, React, Node.js, Express.js, MySQL, MongoDB
     Problem-Solving: Data Structures & Algorithms with Java
@@ -43,7 +43,7 @@ function About() {
     <br></br>
     <h1 className='text-green-600 font-semibold text-xl'>Professional Experience</h1>
  <div>
-  <ul className="list-disc ml-6 text-white">
+  <ul className="list-disc ml-6 text-black">
   <li>Airbnb Clone (June 2025)</li>
   <li>Developed a responsive full-stack Airbnb clone using the MERN stack...</li>
   <li>Portfolio Website - Personal Project (Aug 2025)</li>
