@@ -12,6 +12,7 @@ import { FaNodeJs } from "react-icons/fa";
 import { ReactTyped} from "react-typed";
 
 import pic from "../../public/photo.avif";
+import Photo from "../../public/SANDESH.png"
 function Home() {
   return (
    <>
