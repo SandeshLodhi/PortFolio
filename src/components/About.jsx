@@ -7,14 +7,17 @@ function About() {
     <div>
        <h1 className='text-3xl font-bold mb-5'>About</h1>
      <p>
-      Hello , I'm Sandesh , a passionate Web Development with a keen eye for MERN stack. with a  background in Cs. I strive to create impactful and visually stunning Software solution that leave a lasting impression.
-
+     I am a Computer Science student passionate about learning and applying new technologies.
+    Currently exploring Java, C++, and the MERN stack to gain practical development experience.
+    I enjoy solving problems and building projects that turn ideas into real-world solutions.
+    With continuous learning, I aim to grow as a full-stack developer and contribute meaningfully through technology.
      </p>
      <br>
      </br>
     <h1 className='text-green-600 font-semibold text-xl'>Education & Training </h1>
     <span>
-      [Degree/Certification], [Institution], [Year] [Degree/Certification],
+    B.Tech in Computer Science – ITM Group of Institutions, Gwalior (2023–2027)
+    C++ Certification – TAP Cell, ITM (2023)
     </span>
     <br></br>
     <br></br>
@@ -22,8 +25,10 @@ function About() {
 
     <h1 className='text-green-600 font-semibold text-xl'>Skills & Expertise</h1>
     <span>
-     I have command on c , C++ , java , and learning DSA with Java .
-      MERN STACK DEVELOPER , FULL STACK DEVELOPER
+    Programming: C, C++, Java
+    Web Development: HTML, CSS, JavaScript, React, Node.js, Express.js, MySQL, MongoDB
+    Problem-Solving: Data Structures & Algorithms with Java.
+    Tools & Plateforms: Git & GitHub.
     </span>
     <br></br>
     <br></br>
@@ -31,7 +36,16 @@ function About() {
 
      <h1 className='text-green-600 font-semibold text-xl'>Professional Experience </h1>
     <span>
-      [Degree/Certification], [Institution], [Year] [Degree/Certification],
+    Airbnb Clone							                                                                                  June’25
+    Developed a responsive full-stack Airbnb clone using the MERN stack (MongoDB, Express.js, React.js, Node.js).
+ ●	Implemented secure user authentication, property listings, and booking functionality.
+ ●	Integrated dynamic search filters and detailed listing pages for enhanced user experience.
+ ●	Built RESTful APIs and handled real-time data storage with MongoDB.                                         Aug’25
+    Portfolio Website – Personal Project                                                                        
+ ●  Developed a responsive personal portfolio website using React and Tailwind CSS.
+ ●  Designed modern and responsive UI for desktop and mobile devices.
+ ●  Implemented dynamic sections to showcase projects, skills, and contact information.
+ ●  Enhanced user experience with smooth navigation and interactive elements.
     </span>
     <br></br>
     <br></br>
@@ -39,7 +53,7 @@ function About() {
 
     <h1 className='text-green-600 font-semibold text-xl'>Achievements & Awards</h1>
     <span>
-      [Degree/Certification], [Institution], [Year] [Degree/Certification],
+      Solved 350+ DSA problems in Java, covering arrays, linked lists, trees, graphs, dynamic programming, and more, strengthening problem-solving and coding skills.
     </span>
     <br></br>
     <br></br>
@@ -47,7 +61,7 @@ function About() {
 
        <h1 className='text-green-600 font-semibold text-xl'>Mission Statement</h1>
     <span>
-      [Degree/Certification], [Institution], [Year] [Degree/Certification],
+      "To leverage my coding and problem-solving abilities to build impactful projects and grow as a full-stack developer."
     </span>
 
     </div>

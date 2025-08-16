@@ -35,9 +35,9 @@ function Home() {
 
     </div>
     <br></br>
-    <p className='text-sm md:text-md text-justify'>Hi, I’m Sandesh, a Computer Science student with a strong interest in coding and web development.
+    <p className='text-sm md:text-md text-justify'>Hi, I’m Sandesh, a Computer Science student passionate about coding and web development.
 I am exploring Java, C++, and the MERN stack to strengthen my knowledge and build useful applications.
-Passionate about problem-solving and full-stack projects, I aim to grow as a full-stack developer.
+Focused on problem-solving and real-world projects, I aim to grow as a full-stack developer.
 </p>
 <br/>
 {/*Social Media */}
