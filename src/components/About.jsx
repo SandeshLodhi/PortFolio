@@ -63,7 +63,7 @@ function About() {
 
     <h1 className='text-green-600 font-semibold text-xl'>Achievements & Awards</h1>
     <span>
-    Solved 350+ DSA problems in Java, covering arrays, linked lists, trees, graphs, dynamic programming, and more, strengthening problem-solving and coding skills.
+    Solved 100+ DSA problems in Java, covering arrays, linked lists, trees, graphs, dynamic programming, and more, strengthening problem-solving and coding skills.
     </span>
     <br></br>
     <br></br>
