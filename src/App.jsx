@@ -1,28 +1,31 @@
-import React from 'react';
-import Navbar from './components/Navbar'; 
+import React from 'react'
 
-import Home from "./components/Home";
-import About from './components/About';
-import Portfolio from './components/Portfolio';
-import Experiance from './components/Experiance';
-import Contact from './components/Contact';
-import Footer    from "./components/Footer";
-import { Toaster } from 'react-hot-toast';
+import Navbar from './components/Navbar'
+import Home from './components/Home'
+import About from './components/About'
+import Skills from './components/Skills'
+import Projects from './components/Project'
+import Experience from './components/Experience'
+import Contact from './components/Contact'
+import Footer from './components/Footer'
+
 function App() {
   return (
     <>
-    <div>
       <Navbar />
-      <Home/>
-      <About/>
-      <Portfolio/>
-      <Experiance/>
-      <Contact/>
-      <Footer/>
-    </div>
-     <Toaster/>
+
+      <div className="mt-20">
+        <Home />
+        <About />
+        <Skills />
+        <Projects />
+        <Experience />
+        <Contact />
+        <Footer />
+
+      </div>
     </>
-  );
+  )
 }
 
-export default App;
+export default App

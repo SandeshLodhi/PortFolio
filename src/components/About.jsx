@@ -1,85 +1,116 @@
 import React from 'react';
 
 function About() {
-  return <div 
-  name="About"
-  className="max-w-screen-2*1 container mx-auto px-4 md:px-20 my-16">
-    <div>
-       <h1 className='text-3xl font-bold mb-5'>About</h1>
-     <p>
-     I am a Computer Science student passionate about learning and applying new technologies.
-    Currently exploring Java, C++, and the MERN stack to gain practical development experience.
-    I enjoy solving problems and building projects that turn ideas into real-world solutions.
-    With continuous learning, I aim to grow as a full-stack developer and contribute meaningfully through technology.
-     </p>
-     <br>
-     </br>
+  return (
+    <>
+      <div
+        name="About"
+        className=" max-w-screen-2xl container mx-auto px-4 md:px-20 my-20"
+      >
 
+        <div className="bg-white shadow-lg rounded-3xl p-8 md:p-12">
 
-    <h1 className='text-green-600 font-semibold text-xl'>Education & Training </h1>
-    <span>
-    B.Tech in Computer Science – ITM Group of Institutions, Gwalior (2023–2027).
-    <p>C++ Certification – TAP Cell, ITM (2023).</p>
-    </span>
-    <br></br>
-    <br></br>
+          {/* Heading */}
+          <h1 className="text-4xl font-bold mb-8 bg-gradient-to-r from-green-500 to-cyan-500 text-transparent bg-clip-text">
+            About
+          </h1>
 
+          {/* Intro */}
+          <p className="text-gray-700 text-md md:text-lg leading-7">
+          I am an aspiring Full Stack Developer (MERN) with a strong interest in building scalable and user-friendly web applications. Skilled in Java, C++, and modern web technologies, I continuously work on improving my problem-solving abilities and development skills through hands-on projects and practical learning.
+          </p>
 
-    {/* Skiils  Sections */}
-    <h1 className='text-green-600 font-semibold text-xl'>Skills & Expertise</h1>
-    <div className="whitespace-pre-line text-gray-800 text-base font-medium">
-    <p>Programming: C, C++, Java</p>
-    <p>Web Development: HTML, CSS, JavaScript, React, Node.js, Express.js, MySQL, MongoDB</p>
-    <p> Problem-Solving: Data Structures & Algorithms with Java.</p>
-    <p>Tools & Plateforms: Git & GitHub.</p>
-    </div>
-    <br></br>
-    <br></br>
+          {/* Education */}
+          <div className="mt-10">
+            <h2 className="text-2xl font-semibold text-green-600 mb-4">
+              Education
+            </h2>
 
+            <div className="bg-gray-50 p-5 rounded-2xl shadow-sm hover:shadow-md duration-300">
+              <p className="text-lg font-semibold">
+                B.Tech in Computer Science Engineering
+              </p>
 
-    <h1 className='text-green-600 font-semibold text-xl'>Professional Experience</h1>
- <div>
-  <p>Airbnb Clone (June 2025)</p>
-  <p>Developed a responsive full-stack Airbnb clone using the MERN stack (MongoDB, Express.js, React.js, Node.js).</p>
-  <ul className="list-disc ml-6 text-black">
-  {/*<li>Airbnb Clone (June 2025)</li>
-  <li>Developed a responsive full-stack Airbnb clone using the MERN stack (MongoDB, Express.js, React.js, Node.js).</li>  */}
-  <li>Implemented secure user authentication, property listings, and booking functionality.</li>
-  <li>Integrated dynamic search filters and detailed listing pages for enhanced user experience.</li>
-  <li>Built RESTful APIs and handled real-time data storage with MongoDB.                </li>
-</ul> <br></br>
+              <p className="text-gray-700">
+                Institute of Technology and Management, Gwalior
+              </p>
 
-<p> Portfolio Website – Personal Project  </p>
-  <p> Developed a responsive personal portfolio website using React and Tailwind CSS.</p>
-  <ul className="list-disc ml-6 text-black">
-  <li>Designed modern and responsive UI for desktop and mobile devices.</li>
-  <li>Implemented dynamic sections to showcase projects, skills, and contact information.</li>
-  <li>Built RESTful APIs and handled real-time data storage with MongoDB</li>
-  <li>Enhanced user experience with smooth navigation and interactive elements.</li>
-</ul>
-</div> <br></br>
-<br></br>
+              <p className="text-gray-500">
+                2023 - 2027
+              </p>
+            </div>
+          </div>
 
+          {/* Skills */}
+          <div className="mt-10">
+            <h2 className="text-2xl font-semibold text-green-600 mb-4">
+              Skills
+            </h2>
 
-    <h1 className='text-green-600 font-semibold text-xl'>Achievements & Awards</h1>
-    <span>
-    Solved 100+ DSA problems in Java, covering arrays, linked lists, trees, graphs, dynamic programming, and more, strengthening problem-solving and coding skills.
-    </span>
-    <br></br>
-    <br></br>
+            <div className="flex flex-wrap gap-4">
 
+              <span className="px-5 py-2 bg-green-100 text-green-700 rounded-full font-medium hover:scale-105 duration-300">
+                MERN Stack
+              </span>
 
-       <h1 className='text-green-600 font-semibold text-xl'>Mission Statement</h1>
-    <span>
-    I build impactful projects by leveraging my coding and problem-solving skills, while continuously growing as a full-stack developer.
-    </span>
+              <span className="px-5 py-2 bg-cyan-100 text-cyan-700 rounded-full font-medium hover:scale-105 duration-300">
+                Java
+              </span>
 
-    </div>
+              <span className="px-5 py-2 bg-purple-100 text-purple-700 rounded-full font-medium hover:scale-105 duration-300">
+                DSA
+              </span>
 
+              <span className="px-5 py-2 bg-yellow-100 text-yellow-700 rounded-full font-medium hover:scale-105 duration-300">
+                React.js
+              </span>
 
-     </div>
-    
-  
+              <span className="px-5 py-2 bg-pink-100 text-pink-700 rounded-full font-medium hover:scale-105 duration-300">
+                Node.js
+              </span>
+
+              <span className="px-5 py-2 bg-indigo-100 text-indigo-700 rounded-full font-medium hover:scale-105 duration-300">
+                MongoDB
+              </span>
+
+            </div>
+          </div>
+
+          {/* Achievements */}
+          <div className="mt-10">
+            <h2 className="text-2xl font-semibold text-green-600 mb-4">
+              Achievements
+            </h2>
+
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+
+              <div className="bg-gray-50 p-6 rounded-2xl shadow-sm hover:shadow-lg hover:-translate-y-1 duration-300">
+                <h1 className="text-3xl font-bold text-green-500">
+                  180+
+                </h1>
+
+                <p className="text-gray-700 mt-2">
+                  DSA Problems Solved
+                </p>
+              </div>
+
+              <div className="bg-gray-50 p-6 rounded-2xl shadow-sm hover:shadow-lg hover:-translate-y-1 duration-300">
+                <h1 className="text-3xl font-bold text-cyan-500">
+                  Full Stack
+                </h1>
+
+                <p className="text-gray-700 mt-2">
+                  MERN Projects Developed
+                </p>
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </>
+  );
 }
 
 export default About;

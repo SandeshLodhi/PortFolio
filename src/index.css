@@ -3,6 +3,26 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
-    font-family: 'Poppins', sans-serif;
+/* body{
+  background: linear-gradient(
+    to right,
+    #f8fafc,
+    #eef2ff,
+    #f5f3ff
+  );
+  overflow-x: hidden;
+} */
+
+body{
+  background: linear-gradient(
+    to right,
+    #f8fafc,
+    #ecfeff,
+    #f5f3ff
+  );
+}
+html {
+  /* Apne navbar ki height ke hisaab se is value ko adjust karein (e.g., 80px, 100px) */
+  scroll-padding-top: 5rem; 
+  scroll-behavior: smooth;
 }
