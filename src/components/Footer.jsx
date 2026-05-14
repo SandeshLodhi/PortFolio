@@ -11,7 +11,7 @@ function Footer() {
 
   return (
     <>
-      <footer className='mt-20'>
+      <footer className='mt-20 scroll-mt-24'>
 
         <div className="max-w-screen-2xl container mx-auto px-4 md:px-20 py-12">
         <hr></hr>

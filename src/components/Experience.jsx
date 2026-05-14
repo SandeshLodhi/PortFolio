@@ -20,7 +20,7 @@ function Experience() {
     <>
       <div
         name="Experience"
-        className="max-w-screen-2xl container mx-auto px-4 md:px-20 my-20"
+        className="max-w-screen-2xl container mx-auto px-4 md:px-20 my-20 scroll-mt-32"
       >
 
         {/* Heading */}

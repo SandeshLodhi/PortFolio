@@ -23,6 +23,6 @@ body{
 }
 html {
   /* Apne navbar ki height ke hisaab se is value ko adjust karein (e.g., 80px, 100px) */
-  scroll-padding-top: 5rem; 
+  scroll-padding-top: 50px; 
   scroll-behavior: smooth;
 }

@@ -10,32 +10,40 @@ function Navbar() {
 
   const [menu, setMenu] = useState(false);
 
-  const navItems = [
-    {
-      id: 1,
-      text: "Home"
-    },
-    {
-      id: 2,
-      text: "About"
-    },
-    {
-      id: 3,
-      text: "Skills"
-    },
-    {
-      id: 4,
-      text: "Projects"
-    },
-    {
-      id: 5,
-      text: "Experience"
-    },
-    {
-      id: 6,
-      text: "Contact"
-    },
-  ]
+ const navItems = [
+  {
+    id: 1,
+    text: "Home"
+  },
+  {
+    id: 2,
+    text: "About"
+  },
+  {
+    id: 3,
+    text: "Skills"
+  },
+  {
+    id: 4,
+    text: "Projects"
+  },
+  {
+    id: 5,
+    text: "Experience"
+  },
+  {
+    id: 6,
+    text: "Certifications"
+  },
+  {
+    id: 7,
+    text: "Resume"
+  },
+  {
+    id: 8,
+    text: "Contact"
+  },
+]
 
   return (
     <>
@@ -81,7 +89,7 @@ function Navbar() {
                       to={text}
                       smooth={true}
                       duration={500}
-                      offset={-70}
+                      offset={-100}
                       activeClass='active'
                     >
                       {text}
