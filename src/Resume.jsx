@@ -18,7 +18,7 @@ function Resume() {
 
         {/* View Button */}
         <a
-          href="/public/Sandesh_Lodhi_Full_Stack_Developer.pdf"
+          href="/Sandesh_Lodhi_Full_Stack_Developer.pdf"
           target="_blank"
           rel="noopener noreferrer"
           className="bg-blue-500 hover:bg-blue-600 text-white px-6 py-3 rounded-lg shadow-md transition duration-300"
@@ -28,7 +28,7 @@ function Resume() {
 
         {/* Download Button */}
         <a
-          href="/public/Sandesh_Lodhi_Full_Stack_Developer.pdf"
+          href="/Sandesh_Lodhi_Full_Stack_Developer.pdf"
           download
           className="bg-green-500 hover:bg-green-600 text-white px-6 py-3 rounded-lg shadow-md transition duration-300"
         >
